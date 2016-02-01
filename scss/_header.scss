@@ -1,0 +1,36 @@
+*{
+
+}
+
+
+/* cabeçalho*/
+header{
+     padding:25px 0;
+   
+    
+    
+
+}
+
+.content{
+     @include make-row;
+}
+ 
+.logo-container{
+    
+    @include make-md-column(3);
+}
+
+.logo-container__filho{
+    @include make-md-column(10);
+}
+
+input.form-control{
+    height: 45px;
+    font: 13px $font_main;
+    color: #ccc;
+    margin-top: 7px;
+    border: 1px solid;
+}
+
+/*fim cabeçalho*/
